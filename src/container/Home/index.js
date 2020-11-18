@@ -11,7 +11,7 @@ import Header from '../../components/Header';
 import {mock_posts, mock_stories} from '../../mockdata';
 import styles from './styles';
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   const renderStory = ({item}) => {
     const {username, avatar} = item;
     return (
@@ -43,6 +43,10 @@ const HomeScreen = () => {
         </Text>
       </TouchableOpacity>
     );
+  };
+
+  const handleShowPostContent = () => {
+    navigation.navigate('PostContent');
   };
 
   const renderPostItem = ({item}) => {
@@ -82,7 +86,7 @@ const HomeScreen = () => {
             {caption}
           </Text>
           {/* view all comments button */}
-          <TouchableOpacity>
+          <TouchableOpacity onPress={handleShowPostContent}>
             <Text style={{color: 'gray'}}>
               View all {comments.length} comments
             </Text>
@@ -119,7 +123,7 @@ const HomeScreen = () => {
   };
 
   return (
-    <View>
+    <View style={styles.container}>
       {/* HEADER */}
       <Header style={styles.headerContainer}>
         <Header.Left>

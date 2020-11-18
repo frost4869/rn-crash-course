@@ -4,6 +4,9 @@ import {app_margin, app_padding} from '../../theme/metric';
 const {width: SCREEN_WIDTH} = Dimensions.get('screen');
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#000',
+  },
   headerContainer: {
     paddingVertical: app_padding,
     paddingHorizontal: 16,
