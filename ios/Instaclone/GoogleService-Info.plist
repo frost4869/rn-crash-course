@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>85639184534-hivaph7blg1rtlnees9142lni623qkc7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.85639184534-hivaph7blg1rtlnees9142lni623qkc7</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>85639184534-ljmp6rei9akgqj9qibu8c922to66c9p2.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDF-OqLliySmVLEFf1F5LC90Otf2LGgHfw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>85639184534</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.Instaclone</string>
+	<key>PROJECT_ID</key>
+	<string>rn-crash-course</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rn-crash-course.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:85639184534:ios:0ef9def287041a3cfe02b7</string>
+	<key>DATABASE_URL</key>
+	<string>https://rn-crash-course.firebaseio.com</string>
+</dict>
+</plist>

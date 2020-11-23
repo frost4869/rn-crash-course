@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85639184534",
+    "firebase_url": "https://rn-crash-course.firebaseio.com",
+    "project_id": "rn-crash-course",
+    "storage_bucket": "rn-crash-course.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85639184534:android:f58ebb15e3bb720afe02b7",
+        "android_client_info": {
+          "package_name": "com.reactnative.crashcourd.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85639184534-ljmp6rei9akgqj9qibu8c922to66c9p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactnative.crashcourd.demo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "85639184534-s6q01rppmochhhkvgqq3plb1668umlmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCznnhOboHuBeKBJeJeKCi8bp7YkgibkK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85639184534-s6q01rppmochhhkvgqq3plb1668umlmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,11 +10,12 @@ import FavoriteScreen from '../container/Favorite';
 import UserProfileScreen from '../container/UserProfile';
 
 import Icon from 'react-native-vector-icons/Foundation';
+import NotificationDemo from '../container/NotificationDemo';
 
 const TabIcons = {
   HomeStack: 'home',
   Search: 'magnifying-glass',
-  CreatePost: 'plus',
+  Notification: 'megaphone',
   Favorite: 'heart',
   UserProfile: 'torso',
 };
@@ -47,7 +48,7 @@ const RootNavigation = () => (
     }}>
     <Tab.Screen component={HomeStack} name="HomeStack" />
     <Tab.Screen component={SearchScreen} name="Search" />
-    <Tab.Screen component={CreatePostScreen} name="CreatePost" />
+    <Tab.Screen component={NotificationDemo} name="Notification" />
     <Tab.Screen component={FavoriteScreen} name="Favorite" />
     <Tab.Screen component={UserProfileScreen} name="UserProfile" />
   </Tab.Navigator>

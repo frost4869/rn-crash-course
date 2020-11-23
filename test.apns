@@ -1,0 +1,10 @@
+{
+  "aps": {
+    "alert": {
+      "title": "Testing Notification",
+      "subtitle": "This is a test for notification on ios",
+      "body": "This is the body of the notification. NOTICE ME SENPAI !!!"
+    },
+    "sound": "default"
+  }
+}
